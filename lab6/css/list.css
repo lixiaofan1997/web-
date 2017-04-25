@@ -1,0 +1,5 @@
+.list{
+	font-size: 14px;
+	font-family:'Arial';}
+li a:link{text-decoration: none;}
+li a:hover{text-decoration: none;color: #69f605}
