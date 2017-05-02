@@ -1,0 +1,19 @@
+.tittle{
+		font-weight: bold;
+		font-size: 16px;
+		font-family:'微软雅黑';
+		color:#65a7d0;
+	  }
+ul.no2{
+	list-style-type:disc;
+}
+td.no3{
+	 background-image: url(../images/foot_bg.gif);
+	 background-repeat: repeat-x;	 
+}
+p.no2{
+	line-height: 11px;
+}
+p.no3{
+	background:url(../images/pic_news.gif)  no-repeat top;
+}

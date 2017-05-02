@@ -1,0 +1,13 @@
+.list{
+	font-size: 14px;
+	font-family:'Arial';}
+li a:link{text-decoration: none;}
+li a:hover{text-decoration: none;color: #69f605}
+ul.no1{
+	list-style-image: url(../images/list.png);
+}
+ul.no2{
+	list-style-type:disc;
+}
+
+

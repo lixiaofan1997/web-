@@ -1,0 +1,33 @@
+body{
+	font-size: 12px ;
+	font-family:'Arial';
+	line-height: 2em;
+	color:gray;
+}
+a:link{text-decoration: none;color: #727272}	
+a:hover{text-decoration: underline;}
+.style{
+		font-weight: bold; 
+		font-size: 14px;
+		font-family:'Arial';
+		color:#b9f605;
+	  }
+.white{color: white;}
+.orange{
+		font-weight: bold; 
+		font-size: 14px;
+		font-family:'Arial';	
+		color: #fdb306}
+tr.no1{
+	background:url(../images/bg.gif);
+	background-repeat: repeat-x;
+}
+td.no2{
+	background:url(../images/banner.jpg)  no-repeat top center;
+}
+p.no1{
+	height: 25px;
+}
+ul{
+	list-style-type:none;
+}
