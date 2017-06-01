@@ -1,0 +1,116 @@
+#content{
+	height: 600px;
+}
+#content_top{
+    line-height: 50px;
+    padding-left: 220px;
+}
+#content_center{
+}
+#content_bottom{
+}
+#content_center_left{
+	float: left;
+}
+#content_center_right{
+	float: left;
+	position: relative;
+    left: 230px;
+}
+.pxdt{
+	color: #522a06;
+	line-height: 30px;
+	font-weight: bold;
+}
+a.two:visited{background-image: url(../images/menubg.gif);}
+a.two:hover{background-image: url(../images/menubg.gif);}
+#left_one{
+	background-image: url(../images/bg.png);
+	width: 200px;
+	height: 250px;
+	/*padding-left: 200px; */
+    position: relative;
+    left: 200px;
+    overflow: auto;
+    border:1px solid #c9baa5;
+}
+/*a.three:link{color:#522a06;}*/
+.block{
+	display: block;
+	padding-left: 25px;
+    background-repeat: no-repeat;
+}
+#left_two{
+	background-image: url(../images/bg.png);
+	width: 200px;
+	/*height: 250px;*/
+	/*padding-left: 200px; */
+    position: relative;
+    left: 200px;
+    top:20px;
+    overflow: auto;
+    border:1px solid #c9baa5;
+}
+.zjgx{
+	color: #522a06;
+	line-height: 30px;
+	padding-left: 15px;	
+}
+#zjgxpic{
+	padding-top: 15px;
+}
+#left_three{
+	width: 200px;
+    position: relative;
+    left: 200px;
+    top:40px;
+    overflow: auto;
+    border:1px solid #c9baa5;
+}
+#right_one{
+	background-image: url(../images/listtitle.png);
+    height: 45px;
+    width: 760px;
+}
+.right1{
+	font-size: 20px;
+	color:#bc6420;
+	padding-top: 20px;
+	position: relative;
+	top: 10px;
+    left: 50px;
+}
+.zsqs{
+	color: #522a06;
+	line-height: 30px;
+}
+#right_two{
+	padding-left: 25px;
+}
+.tl{
+	position: relative;
+	bottom: 20px;
+	left:200px;
+}
+.time{
+	position: relative;
+	left:465px;
+}
+.listfloat{
+	display: block;
+	float: left;
+	border:1px solid gray;
+/*	height: 10px;
+	width: 10px;*/
+	padding: 3px 7px;
+	margin-right: 10px;
+}
+.no2listfloat{
+	display: block;
+	float: left;
+	padding: 3px 7px;
+	margin-right: 10px;
+}
+a.three:visited{color:#522a06; font-weight: bold;}
+a.three:hover{color: #522a06;}
+a.three:link{color: #522a06;}
