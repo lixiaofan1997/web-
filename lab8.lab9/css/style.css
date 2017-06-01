@@ -1,0 +1,114 @@
+body{
+	font-size:12px;
+	color: #522a06;
+}
+.no1bg{
+	background-image: url(../images/bodybg.gif);
+}
+#header{
+	height:205px;
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+#banner{
+	width:1000px;
+	height:126px;
+	padding-top:38px;
+	padding-left:25px;
+	margin-left:230px;
+}
+#nav{
+	background-image:url(../images/nav.jpg);
+	overflow: auto;
+}
+#nav_body{
+	overflow: auto;
+	width:1000px;
+}
+.nav_content{
+	overflow :auto;
+	float:left;
+	width: 800px;
+	position:relative;
+	left:150px;
+}
+.nav_search{/*在content search 中加了*/
+	overflow:auto;
+	float:left;
+    padding:10px 0;
+    position: relative;
+    left: 70px;
+}
+.a{
+	display:block;
+	/*float:left;*//*不使用float，因为content-top的培训动态下的列表项会乱*/
+	/*padding:5px 5px;*/
+	padding:0px 5px;
+	font-weight: bold;
+	line-height: 40px;	
+	font-size:12px;/*10px*/
+	font-weight: bold;
+	color:#fff;
+}
+.float{
+	float:left;
+}
+a:link{text-decoration:none;}
+a:hover{text-decoration:none;color:#f9f603;}
+form{
+	float:left;
+	padding-left:50px;
+	padding-right:10px;
+	/*padding-left:10px;
+	padding-right:10px;*/
+}
+
+ul{
+	/*overflow: auto;*/
+	margin:3px 3px;
+}
+/*li{
+	list-style-type: none;*/
+.li{
+	list-style: none;
+}	
+.one{
+	color:#f9f603;
+}	
+.text{
+	width:140px;
+	height:19px;
+	background-color:#f8f5ee;
+}
+.button{
+	width:44px;
+	height:21px;
+	background-color:#000;
+	color:#fff;
+	border:1px solid #f8f5ee;
+}
+#footer{
+	background-image: url(../images/foot.gif);
+	height: 105px;
+	clear: both;
+	width: 1000px;
+	margin-left: 200px;
+}
+#foot{
+	margin-left: 230px;	
+}
+#line{
+	padding-left: 230px;
+}
+#p1{
+	padding-left: 300px;
+}
+#p2{
+	padding-left: 340px;
+}
+.b{
+	color: #522a06;
+	line-height: 30px;
+	font-weight: bold;
+}
