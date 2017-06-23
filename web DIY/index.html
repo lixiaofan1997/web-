@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="index.css">	
+</head>
+<body>
+	<!-- 页头部分 -->
+	<div id="header"><!-- 没浮动,但是加了overflow -->
+	<!-- banner.logo图 -->
+		<div id="banner"><!-- 没浮动 ，但是设置了高度-->
+			<img src="images/logo.gif" id="logo">
+		</div>
+	<!-- 导航栏 -->
+		<div id="nav"><!-- 没浮动 -->
+		<!-- 导航栏 -->
+			<div id="nav_content"><!-- 没浮动 -->
+				<div class="img_same2 float_left"></div><!-- 浮动 -->
+				<ul id="ul_no1" class="float_left"><!-- 浮动 -->
+					<li class="float_left li"><a href="content.html" class="one">首页</a></li>
+					<li class="float_left li"><a href="content.html"  class="one">本栈介绍</a></li>
+					<li class="float_left li"><a href="content.html" class="one">公众号推荐</a></li>
+					<li class="float_left li"><a href="content.html" class="one">书籍推荐</a></li>
+					<li class="float_left li"><a href="content.html" class="one">简易美食</a></li>
+					<li class="float_left li"><a href="content.html" class="one">音乐Zone</a></li>
+					<li class="float_left li"><a href="content.html" class="one">靓丽美妆</a></li>
+					<li class="float_left li"><a href="content.html" class="one">交换市场</a></li>
+					<li class="float_left li"><a href="content.html" class="one">本季时装</a></li>
+				</ul>
+				<div class="img_same2 float_left"></div>
+				<!-- <div id="change"><img src="images/web111.gif"></div>  -->
+			</div>
+		</div>
+	</div>
+	<!-- 页面主体部分 -->
+	<div id="content">
+		<div id="c_left"></div><!-- /*左空*/ -->
+		<div id="c_center">
+			<div id="cc_left"><!-- 左边一列内容 -->
+				<div><img src="images/dog.gif" class="dog"></div>
+				<div><!-- 小栈介绍，栈长 -->
+					<h3 class="org">&nbsp;栈长：小愉儿</h3>
+					<p class="intro">小栈介绍：本小栈建于2017年6月，本栈致力于为大学生提供优秀书籍，公众号，介绍大学生可用妆容，各季节衣装潮流，并致力于打造大型二手铺子，即二手交易市场，为同城大学生提供换物，交友的机会。（注册登录百香小栈，来二手市场换物撩妹吧！）</p>
+				</div>
+				<div id="login">
+					<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+						<input type="submit" name="button" value="登录" class="b2">
+						<input type="submit" name="button" value="注册" class="b2"><br>
+						用户名：<input type="text" name="username"><br><br>
+						密&nbsp;&nbsp;&nbsp;码：<input type="password" name="password">
+						<input type="submit" name="button" value="登录" id="in">		
+					</form>
+				</div><!-- 登录 -->
+			</div>
+			<div id="cc_right"><!-- 右边一列内容 --><!-- 四大部分 -->
+				<div class="pad2">
+					<form action="http://10.7.1.98/taozhuo/form_data.php" method="get">
+						<input type="text" name="search"><input type="submit" name="submit" value="搜索">
+					</form><!-- 搜索框 -->
+				</div>		
+				<div class="widno1">
+					<img src="images/gzh.gif" class="size">
+					<div class="widno1 over">
+						<ul class="ulno1 float_left">
+							<li class="lsimg"><a href="content.html" class="two">河北师范大学</a></li>
+							<li class="lsimg"><a href="content.html" class="two">河北师大青年</a></li>
+							<li class="lsimg"><a href="content.html" class="two">河北师范大学学生会</a></li>
+							<li class="lsimg"><a href="content.html" class="two">河北师范大学软件学院团总支</a></li>
+							<li class="lsimg"><a href="content.html" class="two">教务处教室管理中心</a></li>	
+							<li class="lsimg"><a href="content.html" class="two">屌丝大学生成长日志</a></li>	
+							<li class="lsimg"><a href="content.html" class="two">E聚软件</a></li>
+							<li class="lsimg"><a href="content.html" class="two">河北师大楼管会</a></li>				
+						</ul>
+						<div class="float_left"><img src="images/gzh1.jpg" class="size1 pad3"></div>
+					</div>
+				</div>
+				<div class="widno1">
+					<img src="images/ts.gif" class="size">
+					<div class="widno1 over">
+						<div class="float_left"><img src="images/ts1.jpg" class="size1"></div>
+						<ul class="ulno1 float_left"">
+							<li class="lsimg"><a href="content.html"  class="two">《唤醒心中的巨人》安东尼·罗宾斯</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《平凡的世界》路遥</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《围城》钱钟书</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《飘》玛格丽特·米切尔</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《谁动了我的奶酪》，斯宾塞·约翰逊</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《瓦尔登湖》梭罗</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《追忆逝水年华》马塞尔·普鲁斯特</a></li>
+							<li class="lsimg"><a href="content.html" class="two">《边城》沈从文</a></li>				
+						</ul>
+					</div>
+				</div>
+				<div class="widno1">
+					<img src="images/ms.gif" class="size">
+					<div class="widno1 over widno3">
+						<ul class="ulno1 float_left widno2"><!-- /*ul li 不浮动*/ -->
+							<li class="lsimg"><a href="content.html" class="two">蔬菜沙拉。所需材料：生菜、西红柿、沙拉酱。</a></li>
+							<li class="lsimg"><a href="content.html" class="two">红薯饼。所需材料：红薯2个，鸡蛋2个，面粉3汤匙，白糖若干。</a></芝麻南瓜饼。所需材料：南瓜，蜂蜜，面粉，糯米粉，面包糠，食用油。</a></li>
+							<li class="lsimg"><a href="content.html" class="two">土豆肉饼。所需原料：土豆、牛肉5、酱油、葱末、鸡蛋、淀粉、盐。</a></li>
+							<li class="lsimg"><a href="content.html" class="two" class="two">驴打滚。所需材料：糯米粉 、生粉（玉米淀粉）、蜂蜜、色拉油、水。</a></li>
+							<li class="lsimg"><a href="content.html" class="two">碧玉白菜卷。所需材料：白菜叶，胡萝卜，黄椒，菠菜</a></li>
+							<li class="lsimg"><a href="content.html" class="two">枸杞银耳汤。所需原料：银耳、薏仁、枸杞、冰糖。</a></li>
+						</ul>
+						<div class="float_left"><img src="images/ms1.jpg" class="size1"></div>
+					</div>
+				</div>
+			</div><!-- 右边一列内容 -->
+		</div>
+		<div id="c_right">
+			
+		</div><!-- /*右空*/ -->
+	</div>
+	<!-- 页脚部分 -->
+	<div id="footer">
+		<ul id="foot">
+			<li class="float_left padl2"><a href="#" class=" bot">小栈成员&nbsp;&nbsp;</a>|</li>
+			<li class="float_left"><a href="#" class="bot">&nbsp;联系我们&nbsp;</a>|</li>
+			<li class="float_left"><a href="#" class="bot">&nbsp;意见建议&nbsp;</a>|</li>
+			<li class="float_left"><a href="#" class="bot">&nbsp;广告商议&nbsp;</a>|</li>
+			<li class="float_left"><a href="#" class="bot">&nbsp;加入我们&nbsp;</a>|</li>
+			<li class="float_left"><a href="#" class="bot">&nbsp;关于我们&nbsp;</a></li>
+		</ul>
+		<div>
+			<img src="images/dn.gif" class="nop padl"><img src="images/dn2.gif" class="nop">
+		</div>
+		<p align="center">Copyright&copy;2017-2020 Baixiangxiaozhan.com,All Rights Reserved</p>
+		<p align="center">冀ICP备666666号 冀公网安备6666666666号</p>
+	</div>
+</body>
+</html>

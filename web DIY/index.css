@@ -1,0 +1,100 @@
+#content{
+	overflow: auto;
+}
+#c_left{
+	float: left;
+	width: 204px;
+	height: 800px;
+}
+#c_center{
+	float: left;
+	height: 1130px;
+	width: 917px;
+}
+#c_right{
+	float: right;
+	width: 203px;
+	height: 800px;	
+}
+#login{
+	width: 100%;
+	border: 2px pink solid;
+}
+#cc_left{
+	width: 26%;
+	float: left;
+}
+#cc_right{
+	float: right;
+	width: 73%
+}
+.b2{
+	height: 30px;
+	width: 50px;
+	background-color: #F0E68C;
+	margin-left: 40px;
+	margin-bottom: 10px;
+}
+.org{
+	color: orange;
+	font-family:KaiTi;
+	font-size: 2em;
+	padding:2px 0px 3px 10px;
+	margin: 0px;
+}
+.lsimg{
+	list-style-image: url(images/biao.jpg);
+	/*width: 595px;*/
+}
+.intro{
+	font-size: 1.3em;
+	text-indent:2em;
+	line-height: 1.5em;
+	color: #986;
+	border: 1px dashed;
+}
+.ulno1{
+	line-height: 1.4em;
+	font-size: 1.1em;
+	margin-top: 0px;
+	/*float: left;*/
+}
+.size{
+	height: 85px;
+}
+.widno1{
+	width: 100%;
+}
+/*div{
+	border: 1px solid black;
+}*/
+.dog{
+	position: relative;
+	right: 10px;
+}
+.size1{
+	width: 220px;
+	position: relative;
+	top: 50px;
+}
+.widno2{
+	width: 440px;
+}
+.widno3{
+	width: 120%;
+}
+.pad2{
+	padding-left: 400px;
+}
+.pad3{
+	padding-left: 100px;
+}
+#in{
+	margin-left: 80px;
+	width: 70px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+a.two:link{color:#696969;font-weight:normal;font-size:16px;}
+a.two:visited{color:#696969;font-weight:normal;font-size:16px;}
+a.two:hover{color:#A0522D;font-weight:normal;font-size:16px;}

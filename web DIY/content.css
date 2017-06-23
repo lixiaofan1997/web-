@@ -1,0 +1,119 @@
+#c_left{
+	float: left;
+	width: 204px;
+	height: 800px;
+}
+#cc{
+	float: left;
+	height: 1500px;
+	width: 917px;
+}
+#c_right{
+	float: right;
+	width: 203px;
+	height: 800px;	
+}
+#cc_left{
+	width: 26%;
+	float: left;
+}
+#mbx{
+	font-weight: bold;
+	font-family: KaiTi;
+	font-size: 1.2em;
+	color:#808000;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#cc_right{
+	float: right;
+	width: 73%
+}
+/*.li1{
+	line-height: 1.5em;
+}*/
+.lsimg{
+	list-style-image: url(images/biao.jpg);
+}
+#news{
+	line-height: 0.5em;
+	font-size: 2em;
+	text-align: center;
+}
+#tips{
+	background-image: url(images/tip.gif);
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-indent: 2em;
+	padding-left: 17px;
+	padding-right: 13px;
+	margin-top: 30px;
+	height: 300px;
+}
+#h4{
+	text-indent: 1.5em;
+	line-height: 1.3em;
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+a.four:link{
+	display: block;
+	color:gray;
+	font-weight: bold;
+	font-size:1.3em;
+	font-family: KaiTi ;
+	line-height: 1.5em;
+}
+a.four:visited{
+	display: block;
+	color:gray;
+	font-weight: bold;
+	font-size:1.3em;
+	font-family: KaiTi ;
+	line-height: 1.5em;
+}
+a.four:hover{
+	display: block;
+	font-weight:bold;
+	font-size:1.3em;
+	font-family: KaiTi ;
+	text-decoration-color: #A0522D;
+	color: red;
+	line-height: 1.5em;
+}
+.p{
+	text-indent: 2em;
+	line-height: 1.5em;
+}
+.pm{
+	padding: 25px 25px 10px 25px;
+	margin: 20px;
+}
+.intro{
+	line-height: 1.5em;
+	color: black;
+	text-indent: 5em;
+	font-weight: bold;
+	font-size: 2em;
+	font-family: KaiTi;
+}
+.col3{
+	text-indent: 2em;
+	line-height: 2em;
+	font-weight: bold;
+	font-size: 1.6em;
+	font-family: KaiTi;
+	color: #4B0082;
+	margin:0;
+	padding: 0px;
+}
+#bor{
+	border: 2px #9400D3 dotted;
+	margin-top: 30px;
+}
+.sent{
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #B8860B;
+}

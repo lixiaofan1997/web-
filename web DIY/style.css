@@ -1,0 +1,78 @@
+body{
+	font-family:Microsoft YaHei;/*Times New Roman’, Serif*/	
+	background-image: url(images/bg.jpg);
+	margin-top: 0px;
+	color:#505050;
+	/*font-weight: bold;*/
+}
+#header{/*米色，黄色、粉色*/
+	overflow: auto;
+}
+#banner{
+	background-image: url(images/banner.jpg);
+	height: 320px;
+	padding-left: 200px;
+}
+#logo{
+	height: 250px;
+    padding-top: 50px;
+}
+.over{
+	overflow: auto;
+}
+.float_left{
+	float: left;
+}
+.float_right{
+	float: right;
+}
+#ul_no1{
+	width: 854px;
+	/*padding: 0px;
+	position: relative;*/
+	/*left: 200px;*/
+	margin-left:0px;
+	padding: 0px;
+}
+.img_same2{
+	background-image: url(images/image_same2.gif);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 236px;
+}
+a:link{text-decoration: none;}
+a:hover{text-decoration: underline;}
+ul{
+	list-style-type: none;
+}
+.li{
+	margin-left: 6px;
+	margin-right: 5.5px;
+}
+a.one:link{color:#FF8C00;font-weight: bold;font-size: 21px;font-family: KaiTi;}
+a.one:visited{color:#FF8C00;font-weight: bold;font-size:21px;font-family: KaiTi;}
+a.one:hover{color: yellow;font-weight:bold;font-size: 21px;font-family: KaiTi;}
+#footer{
+	width: 100%;
+	overflow: auto;
+	/*height: 100px;*/
+}
+#foot{
+	padding: 0px;
+	margin:0px;
+	overflow: auto;
+	padding-left: 260px;
+}
+.nop{
+	padding: 0px;
+	margin:0px;
+}
+.padl{
+	padding-left: 185px;
+}
+.padl2{
+	padding-left: 70px;
+}
+a.bot:link{color:#f92776;font-weight: bold;font-size: 23px;font-family: KaiTi;}
+a.bot:visited{color:#f92776;font-weight: bold;font-size: 23px;font-family: KaiTi;}
+a.bot:hover{color: yellow;font-weight:bold;font-size: 23px;font-family: KaiTi; text-decoration:none;}

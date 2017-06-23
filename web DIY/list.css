@@ -1,0 +1,146 @@
+#content{
+	overflow:auto;
+	    /* overflow: auto; */
+    height: 780px;
+}
+#c_left{
+	float: left;
+	width: 204px;
+	height: 750px;
+}
+#cc{
+	float: left;
+	height: 750px;
+	width: 917px;
+}
+#c_right{
+	float: right;
+	width: 203px;
+	height: 750px;
+}
+#cc_left{
+	width: 26%;
+	float: left;
+}
+#cc_right{
+	float: right;
+	width: 73%
+}
+.li{
+	line-height: 1.5em;
+	font-size: 1.1em;
+}
+a.two:link{color:#696969;font-weight:normal;font-size:16px;}
+a.two:visited{color:#696969;font-weight:normal;font-size:16px;}
+a.two:hover{color:#A0522D;font-weight:normal;font-size:16px;}
+.lsimg{
+	list-style-image: url(images/biao.jpg);
+}
+.page{
+	display: block;
+	margin:0 6px;
+	padding: 0 5px;
+	color: #696969;
+	border: 1px black solid;
+}
+a.three:link{
+	display: block;
+	background-image: url(images/img1.jpg);
+	background-repeat: no-repeat;
+	color: #8B4513;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+a.three:visited{
+	display: block;
+	background-image: url(images/img1.jpg);
+	background-repeat: no-repeat;
+	color: #8B4513;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+a.three:hover{
+	display: block;
+	background-image: url(images/img2.jpg);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+a.four:link{
+	display: block;
+	background-image: url(images/img3.jpg);
+	background-repeat: no-repeat;
+	color: #8B4513;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+a.four:visited{
+	display: block;
+	background-image: url(images/img3.jpg);
+	background-repeat: no-repeat;
+	color: #8B4513;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+a.four:hover{
+	display: block;
+	background-image: url(images/img4.jpg);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	font-family: KaiTi;
+	font-size: 1.6em;
+}
+.aposi{
+	padding-left: 46px;
+	padding-top: 10px;
+	width: 150px;
+	height: 55px;
+}
+#liyx{
+	width: 239px;
+}
+#mbx{
+	font-weight: bold;
+	font-family: KaiTi;
+	font-size: 1.2em;
+	color:#808000;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+#more{
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 10px;
+	height: 30px;
+}
+#lip{
+	text-indent: 2em;
+	line-height: 1.4em;
+	padding-left: 10px;
+	padding-right: 10px;
+    font-size: 1.1em;
+}
+#ccrd1{
+	margin-top: 20px;
+}
+.martop{
+	margin-top: 40px;
+}
+.qq{
+	height: 60px;
+}
+#qq{
+	width: 60px;
+	float: right;
+	margin-top: 250px;
+	padding:7px;
+	border: 2px solid #FF0000;
+}
+.qq1{
+	margin-left: 130px;
+}
+#talks{
+	border: 2px #8B008B dotted;
+}
