@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>实验3</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		textarea{
+			height:200px;
+			width:400px;
+		}
+	</style>
+</head>
+<body>
+    <div>
+    <img src="images/star0.png" id="star00" onmouseover="starPic('star00');" onmouseout="hide();" onclick="qd('star00');">
+    <img src="images/star0.png" id="star01" onmouseover="starPic('star01');" onmouseout="hide();" onclick="qd('star01');">
+    <img src="images/star0.png" id="star02" onmouseover="starPic('star02');" onmouseout="hide();"onclick="qd('star02');">
+    <img src="images/star0.png" id="star03" onmouseover="starPic('star03');" onmouseout="hide();"onclick="qd('star03');">
+    <img src="images/star0.png" id="star04" onmouseover="starPic('star04');" onmouseout="hide();"onclick="qd('star04');"></div>
+	<form>
+		<textarea value="" id="textarea"></textarea> <br>
+		<select align="right">
+			<option>公开评论</option>
+			<option>隐私评论</option>
+		</select>
+	</form>
+</body>
+<script type="text/javascript">
+		var con=false;
+		x=document.getElementsByTagName("img");
+	    var arr=new Array('一颗星','两颗星','三颗星','四颗星','五颗星');
+		function starPic(id)
+		{
+			if(con==false)
+			{
+				for(n=0;id!=(x[n].id);n++){}
+				var i=n;
+				if(i>1)
+				{	
+					document.getElementById("textarea").innerHTML=arr[i];
+					var m=i;
+					for(m+=1;m<=4;m++)
+					{
+						x[m].src="images/star0.png";
+					}
+					for(i;i>=0;i--)
+					{
+						x[i].src="images/star2.png";
+					}					
+				}
+				else
+				{
+					document.getElementById("textarea").innerHTML=arr[i];
+					var m=i;
+					for(m+=1;m<=4;m++)
+					{
+						x[m].src="images/star0.png";
+					}
+					for(i;i>=0;i--)
+					{
+						x[i].src="images/star1.png";
+					}
+				}
+			}
+		}
+		function hide()
+		{
+			if(con==false){
+				document.getElementById("textarea").innerHTML="";
+				for(i=0;i<=4;i++)
+				{
+					x[i].src="images/star0.png";
+				}
+		    }
+		}
+		function qd(id)
+		{
+			con=true;
+			for(a=0;id!=(x[a].id);a++)
+			var i=a;
+			if(i>1)
+			{	
+				document.getElementById("textarea").innerHTML=arr[i];
+				var m=i;
+				for(m+=1;m<=4;m++)
+				{
+					x[m].src="images/star0.png";
+				}
+				for(i;i>=0;i--)
+				{
+					x[i].src="images/star2.png";
+				}				
+			}
+			else
+			{
+				document.getElementById("textarea").innerHTML=arr[i];
+				var m=i;
+				for(m+=1;m<=4;m++)
+				{
+					x[m].src="images/star0.png";
+				}
+				for(i;i>=0;i--)
+				{
+					x[i].src="images/star1.png";
+				}
+			}
+		}
+	</script>
+</html>
