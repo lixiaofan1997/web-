@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>图片自动滚动</title>
+	<style type="text/css">
+		div{
+			width: 600px;
+			white-space: nowrap;
+			overflow: hidden;
+		}
+		img{
+			width:450px;
+		}
+	</style>
+</head>
+<body onload="move()">
+	<!-- //注意有无分号 -->
+	<div id="picScroll" onmouseover="stopMove()" onmouseout="move()">
+		<span id="picScroll1">
+			<img src="images/1.jpg"/>
+			<img src="images/2.jpg"/>
+			<img src="images/3.jpg"/>
+			<img src="images/4.jpg"/>
+			<img src="images/5.jpg"/>
+			<img src="images/6.jpg"/>
+			<img src="images/7.jpg"/>
+			<img src="images/8.jpg"/>
+		</span>
+		<span id="picScroll2">
+			<img src="images/1.jpg"/>
+			<img src="images/2.jpg"/>
+			<img src="images/3.jpg"/>
+			<img src="images/4.jpg"/>
+			<img src="images/5.jpg"/>
+			<img src="images/6.jpg"/>
+			<img src="images/7.jpg"/>
+			<img src="images/8.jpg"/>
+		</span>
+	</div>
+</body>
+<script type="text/javascript">
+    //var distance=0;
+    //如果用distance，distance每次都是0；distance不变，循环无法执行
+    var divPic=document.getElementById("picScroll");//通过ID值获取节点
+	divPic.scrollLeft = 0;//节点的水平左滑动
+	var picWidth=document.getElementById("picScroll1").offsetWidth;//图片的宽度
+	var movePic;
+    //向左移动
+	function changeToLeft()
+	{
+		divPic.scrollLeft=divPic.scrollLeft+1;
+		console.log(divPic.scrollLeft);
+		if(divPic.scrollLeft>=picWidth)
+		{
+			divPic.scrollLeft=0;
+		}
+	}
+	//周期执行
+	function move(){
+	     movePic=window.setInterval("changeToLeft()",10);
+	}
+	function stopMove(){
+		window.clearInterval(movePic);
+	}
+	console.log(document.getElementById("picScroll1").offsetWidth);
+</script>
+</html>
