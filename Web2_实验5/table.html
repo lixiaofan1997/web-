@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>表格</title>
+	<meta charset="utf-8" />
+	<style type="text/css">
+		*{
+			font-size: 36px;
+		}
+		tr{
+			height: 30px;
+		}
+	</style>
+</head>
+<body>
+	<table width="1000px" border="1" id="table1">
+		<tr height="30px" onmousemove="onMoveMousePro();" onmouseout="onMoveOutPro();" id="trpro">
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+			<td></td><td></td><td></td><td></td><td></td><td></td>
+		</tr>
+	</table>
+	<input type="button" name="" id="add" value="添加一行" style="margin-left:840px;" onclick="addrow();"/>
+	<input type="button" name="" id="delete" value="删除一行" style="margin-left:840px;" onclick="delrow();"/>
+</body>
+<script type="text/javascript">
+	var tableno1=document.getElementById("table1");
+	function addrow(){//添加行
+		var trno1=document.createElement("tr");//先创建节点
+		trno1.style.height="30px";//设置节点的属性
+		trno1.innerHTML+="<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>";//为节点添加元素
+		tableno1.appendChild(trno1);//将新建的节点作为子节点插入
+		trno1.onmousemove=function(){
+			trno1.style.backgroundColor="yellow";
+		}
+		trno1.onmouseout=function(){
+			trno1.style.backgroundColor="white";
+		}
+	}
+	function delrow(){//删除行
+		var trs=document.getElementsByTagName("tr");//节点集合
+		var trLength=trs.length;//求行数
+		if(trLength>=2)
+		{
+			var deltr=trs[trLength-1];
+			tableno1.removeChild(deltr);
+		}
+		else if(trLength==1){
+			tableno1.innerHTML="";
+		}
+		else{
+			alert("已经没东西可删了！");
+		}
+	}
+	function onMoveMousePro(){//第一个已有的行元素上添加函数
+		document.getElementById("trpro").style.backgroundColor="yellow";
+	}
+	function onMoveOutPro(){//第一个已有的行元素上添加函数
+		document.getElementById("trpro").style.backgroundColor="white";
+	}
+</script>
+</html>
