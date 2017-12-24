@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用javaScript设置表格奇数行背景颜色为灰色</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		td{
+			width: 100px;
+			height:40px; 
+		}
+	</style>
+</head>
+<body>
+	<table border="1px">
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+	</table>
+</body>
+<script type="text/javascript">
+	x=document.getElementsByTagName("td");
+	for(i=0;i<x.length;i++){
+		if(i%2==0){
+			x[i].style.backgroundColor="grey";
+		}
+	}	
+</script>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>用jQuery设置表格奇数行背景颜色为灰色 </title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		td{
+			width: 100px;
+			height:40px;
+		}
+	</style>
+</head>
+<body>
+	<table border="1px">
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+		<tr><td></td></tr>
+	</table>
+</body>
+<script type="text/javascript" src="jquery-3.2.1.slim.min.js"></script>
+<script type="text/javascript">
+	$('td:even').css("background-color","grey");
+</script>
+</html>
