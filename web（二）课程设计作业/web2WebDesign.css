@@ -1,0 +1,149 @@
+#header{
+		overflow: auto;/*默认值。内容不会被修剪，会呈现在元素框之外。*/
+	}
+	#content{
+		margin-top: 25px;
+		position: relative;
+		/*top: 45px;*/
+		overflow: auto;
+	}
+	#footer{
+		overflow: auto;	
+		margin-top: 30px;
+	}
+	.float01{
+		float:left;
+		list-style-type: none;
+	}
+	.autoimg{
+		width:650px;
+		margin:3px;
+	}
+	.tdcolor{
+		color: orange;
+		font-size: 20px;
+	}
+	.acolor{
+		color: #FFFF99;
+	}
+	#picScroll{
+		width:700px;
+		margin:auto  auto;
+		border:10px double #CCCC99;
+		white-space:nowrap; 
+		overflow:hidden;
+		float:left;
+		position: relative;
+		left: 200px;
+	}
+	#p01{
+		text-align: right;
+		margin:10px 640px 20px 200px;/*//上 右 下 左边距*/
+		font-family: "楷体",serif;
+		font-size:45px;
+		color: white;
+	}
+	#h102{
+		text-align: right;
+		margin-right:160px;
+		margin-left: 110px;
+		color: white;
+	}
+	body{
+		background:url(webImages/bg8.jpg);
+		background-repeat:no-repeat;
+		background-size:100% 120%;
+	}
+	form{
+		position: relative;
+		color: white;
+		/*right:10px;*/
+	}
+	a:link{text-decoration: none;}
+	.img{
+		height: 140px;
+		margin-left: 120px;
+	}
+	#afterbox01{
+		display:none;
+		background-color:white;
+		position:absolute;
+	}
+	#afterbox02{
+		display:none;
+		background-color:white;
+		position:absolute;
+	}
+	#afterbox03{
+		display:none;
+		background-color:white;
+		position:absolute;
+	}
+	#afterbox04{
+		display:none;
+		background-color:white;
+		position:absolute;
+	}
+	#resign{
+		float: right;
+		overflow: auto;
+		margin-top: 50px;
+	}
+	.li01{
+		/*position: relative;*/
+		list-style-type: none;
+		text-align:center;
+	}
+	.li02{
+		display: none;
+		border: 1px solid white;
+	}
+	ul{
+		margin:5px 0px 0px 0px;
+		padding: 0px;
+	}
+	li{
+		margin: 0px;
+		padding: 0px;
+	}
+	#ulNo1{
+		overflow: auto;
+		float: left;
+	}
+	#ulNo1 li{
+		width: 100px;
+	}
+	a{
+		color: gold;
+	}
+	#register01{
+		position: absolute;
+	}
+	#onload01{
+		position: absolute;
+		margin-left: 90px;
+	}
+	#intro01{
+		position: absolute;
+		margin-left: 180px;
+	}
+	#pics01{
+		position: absolute;
+		margin-left:280px;
+	}
+	#contract01{
+		position: absolute;
+		margin-left: 930px;
+	}
+	#VIP01{
+		position: absolute;
+		margin-left: 1030px;
+	}
+	#web01{
+		position: absolute;
+		margin-left:1130px;
+	}
+	#courses01{
+		position: absolute;
+		margin-left:1230px;
+	}

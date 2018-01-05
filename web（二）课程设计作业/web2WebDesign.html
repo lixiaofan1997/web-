@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web课程设计————网页开发设计师网站</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="web2WebDesign.css" />
+</head>
+<body>
+	<!-- 页头部分 -->
+	<div id="header">
+		<ul id="ulNo1">
+			<li class="float01">
+				<ul class="li01" id="register01">
+					<li id="register"><a href="#">注册</a></li>
+					<li><div class="li02"><a href="#">QQ注册</a></div></li>
+					<li><div class="li02"><a href="#">WeChat注册</a></div></li>
+					<li><div class="li02"><a href="#">邮箱注册</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01" id="onload01">
+					<li id="onload"><a href="#">登录</a></li>
+					<li><div class="li02"><a href="#">QQ登录</a></div></li>
+					<li><div class="li02"><a href="#">WeChat登录</a></div></li>
+					<li><div class="li02"><a href="#">邮箱登录</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01" id="intro01">
+					<li id="intro"><a href="#">热门推荐</a></li>
+					<li><div class="li02"><a href="#">最潮界面</a></div></li>
+					<li><div class="li02"><a href="#">课程最新</a></div></li>
+					<li><div class="li02"><a href="#">图库更新</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01" id="pics01">
+					<li id="pics"><a href="#">素材图库</a></li>
+					<li><div class="li02"><a href="#">新晋佳作</a></div></li>
+					<li><div class="li02"><a href="#">高清摄影</a></div></li>
+					<li><div class="li02"><a href="#">动图态度</a></div></li>
+				</ul>
+			</li>
+		
+			<li class="float01">
+				<ul class="li01" id="contract01">
+					<li  id="contract"><a href="#">联系我们</a></li>
+					<li><div class="li02"><a href="#">QQ：666666</a></div></li>
+					<li><div class="li02"><a href="#">Tel:0312-666666</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01" id="VIP01">
+					<li id="VIP"><a href="#">VIP课堂</a></li>
+					<li><div class="li02"><a href="#">PS学习</a></div></li>
+					<li><div class="li02"><a href="#">DW学习</a></div></li>
+					<li><div class="li02"><a href="#">UI课程</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01"  id="web01">
+					<li id="web"><a href="#">前端开发</a></li>
+					<li><div class="li02"><a href="#">HTML学习</a></div></li>
+					<li><div class="li02"><a href="#">CSS学习</a></div></li>
+					<li><div class="li02"><a href="#">jQuery学习</a></div></li>
+				</ul>
+			</li>
+			<li class="float01">
+				<ul class="li01"  id="courses01">
+					<li id="courses"><a href="#">免费课程</a></li>
+					<li><div class="li02"><a href="#">HTML学习</a></div></li>
+					<li><div class="li02"><a href="#">CSS学习</a></div></li>
+					<li><div class="li02"><a href="#">jQuery学习</a></div></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<!-- 页面主体部分 -->
+	<div id="content">
+
+		<!-- 轮播图 -->
+		<p id="p01">新品设计速递</p>
+		<div id="picScroll">
+			<span id="picScroll1">
+				<img src="webImages/001.jpg" class="autoimg">
+				<img src="webImages/002.jpg" class="autoimg">
+				<img src="webImages/003.jpg" class="autoimg">
+				<img src="webImages/004.jpg" class="autoimg">
+				<img src="webImages/005.jpg" class="autoimg">
+				<img src="webImages/006.jpg" class="autoimg">
+				<img src="webImages/007.jpg" class="autoimg">
+			</span>
+			<span id="picScroll2"></span>
+		</div> 
+
+		<!-- 登录 -->
+		<div id="resign">
+			<h1 id="h102">用户注册</h1>
+			<form method="get">
+				<table>
+				<!-- //用户名 -->
+				<tr>
+					<td>用户名:</td>
+					<td><input type="text" name="username" id="trNo1uname"></td>
+				</tr>
+				<tr>
+					<td>密码:</td>
+					<td><input type="text" name="password" id="trNo2pword"></td>
+				</tr>
+				<!-- 确认密码 -->
+				<tr>
+					<td>确认密码: </td>
+					<td><input type="text" name="confirmPassword"  id="trNo3cword"></td>
+				</tr>
+				<tr>
+					<td colspan=2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" name="button" value="注册" class="tdcolor"></td>
+				</tr>
+				</table>
+			</form>
+		</div>
+	</div>
+	<!-- 页脚部分 -->
+	<div id="footer">
+		<a href="#"><img src="webImages/001.png" class="img" id="img01"></a>
+		<div id="afterbox01">全站最新素材，点击查看!</div>
+		<a href="#"><img src="webImages/002.png" class="img" id="img02"></a>
+		<div id="afterbox02">VIP课程：最新设计开发课程，你值得拥有</div>
+		<a href="#"><img src="webImages/003.png" class="img" id="img03"></a>
+		<div id="afterbox03">简历投放：帮助你快速找到适合自己的工作</div>
+		<a href="#"><img src="webImages/004.png" class="img" id="img04"></a>
+		<div id="afterbox04">加入我们，了解更多精彩！</div>
+	</div>
+</body>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript">
+//下拉菜单
+$(document).ready(function(){
+	$("#register01").mousemove(function(){
+		$("#register01 li div").show();
+		
+	});
+	$("#register01").mouseout(function(){
+		$("#register01 li div").hide();
+	});
+
+	$("#onload01").mousemove(function(){
+		$("#onload01 li div").show();
+	});
+	$("#onload01").mouseout(function(){
+		$("#onload01 li div").hide();
+	});
+
+	$("#intro01").mousemove(function(){
+		$("#intro01 li div").show();
+	});
+	$("#intro01").mouseout(function(){
+		$("#intro01 li div").hide();
+	});
+
+	$("#pics01").mousemove(function(){
+		$("#pics01 li div").show();
+	});
+	$("#pics01").mouseout(function(){
+		$("#pics01 li div").hide();
+	});
+	
+	$("#VIP01").mousemove(function(){
+		$("#VIP01 li div").show();
+	});
+	$("#VIP01").mouseout(function(){
+		$("#VIP01 li div").hide();
+	});
+
+	$("#web01").mousemove(function(){
+		$("#web01 li div").show();
+	});
+	$("#web01").mouseout(function(){
+		$("#web01 li div").hide();
+	});
+	
+	$("#contract01").mousemove(function(){
+		$("#contract01 li div").show();
+	});
+	$("#contract01").mouseout(function(){
+		$("#contract01 li div").hide();
+	});
+
+	$("#courses01").mousemove(function(){
+		$("#courses01 li div").show();
+		console.log(1);
+	});
+	$("#courses01").mouseout(function(){
+		$("#courses01 li div").hide();
+	});
+});
+// 轮播图部分
+	$(document).ready(function(){
+
+		var speed = 15; //设置图片滑动速度为15毫秒
+		picScroll = document.getElementById("picScroll");//获取最外面的容器
+		picScroll1 = document.getElementById("picScroll1");//获取存放内容的容器
+		picscroll2 = document.getElementById("picScroll2");//获取临时存放内容的容器
+
+		picscroll2.innerHTML = picScroll1.innerHTML;//将容器的内容填到容器2
+		var ID=setInterval(changeToLeft,speed);//每speed毫秒，向左挪动一下
+
+		//2、鼠标经过时暂停图片滚动
+		picScroll.onmouseover=function() {
+			clearInterval(ID);
+		}
+		//3、鼠标离开后图片继续滚动
+		picScroll.onmouseout=function() {
+			ID=setInterval(changeToLeft,speed);
+		}
+	});
+		//1、图片向左滚动函数实现
+		// scrollLeft() 方法返回或设置匹配元素的滚动条的水平位置。动条的水平位置指的是从其左侧滚动过的像素数。当滚动条位于最左侧时，位置是 0。
+	function changeToLeft(){
+		if(picScroll.scrollLeft >= (picScroll1.offsetWidth)){
+			picScroll.scrollLeft = 0;
+		}
+		else{
+			picScroll.scrollLeft += 1;
+		}
+		//console.log(picScroll.scrollLeft);
+	}
+//登录注册部分
+	var $username=$('input[name="username"]');
+	var $password=$('input[name="password"]');
+	var $conPassword=$('input[name="confirmPassword"]');
+	// var $uname=$username.val();//返回或设置匹配元素的值，主要应用于input元素
+	
+	$username.blur(function(){
+		$uname=$username.val();
+			if($uname.length==0){//如果 input的值为空
+				if($("#new01").length==0){
+					//console.log(1);
+					$('#trNo1uname').after('<span id="new01">用户名不能为空</span>');//在里面之后插入新节点
+				}
+				else{}
+			}
+			else{
+				if($("#new01").length==0){}
+				else{
+					$("#new01").remove();
+				}
+			}
+	});
+	$password.blur(function(){// console.log(1);
+		$pword=$password.val();
+			if($pword.length==0){//如果 input的值为空
+				if($("#new02").length==0){
+					//console.log(1);
+					$('#trNo2pword').after('<span id="new02">密码不能为空</span>');
+					//在里面之后插入新节点
+				}
+				else{
+				}
+			}
+			else{
+				if($("#new02").length==0){}
+				else{
+					$("#new02").remove();
+				}
+			}
+		});
+	$password.blur(function(){// console.log(1);
+		$pword=$password.val();
+		$cword=$conPassword.val();
+		if($pword==$cword&&$cword.length!=0&&$pword.length!=0){
+			if($("#new04").length==0){}
+			else{
+				$("#new04").remove();
+			}
+		}
+	});
+	$conPassword.blur(function(){
+		$cword=$conPassword.val();
+			if($cword.length==0){//如果 conPassword input的值为空
+				if($("#new03").length==0){
+					$('#trNo3cword').after('<span id="new03">确认密码不能为空</span>');
+					//在里面之后插入新节点
+				}
+				else{}
+			}
+			else{
+				if($("#new03").length==0){}
+				else{
+					$("#new03").remove();
+				}
+			}
+	});	
+	$conPassword.blur(function(){
+		$pword=$password.val();
+		$cword=$conPassword.val();
+		if($cword.length!=0){
+			if($pword==$cword){
+				if($("#new04").length==0){}
+				else{
+					$("#new04").remove();
+				}
+			}
+			else{
+				if($("#new04").length==0){
+					$('#trNo3cword').after('<span id="new04">确认密码与密码不一致</span>');
+				}
+				else{}	
+			}
+		}
+	});
+//鼠标跟随效果
+	$(document).ready(function(){
+
+		$("#img01").mousemove(function(a){
+			// console.log(e.clientX);
+			$("#afterbox01").get(0).style.display="block";
+			$("#afterbox01").get(0).style.left=a.clientX+10+"px";
+			$("#afterbox01").get(0).style.top=a.clientY+10+"px";
+			console.log(a.clientX);
+			console.log(a.clientY);
+		});
+		$("#img01").mouseout(function(){
+			$("#afterbox01").get(0).style.display="none";
+		})
+
+		$("#img02").mousemove(function(e){
+			// console.log(e.clientX);
+			$("#afterbox02").get(0).style.display="block";
+			$("#afterbox02").get(0).style.left=e.clientX+10+"px";
+			$("#afterbox02").get(0).style.top=e.clientY+10+"px";
+		});
+		$("#img02").mouseout(function(){
+			$("#afterbox02").get(0).style.display="none";
+		})
+
+		$("#img03").mousemove(function(e){
+			// console.log(e.clientX);
+			$("#afterbox03").get(0).style.display="block";
+			$("#afterbox03").get(0).style.left=e.clientX+10+"px";
+			$("#afterbox03").get(0).style.top=e.clientY+10+"px";
+		});
+		$("#img03").mouseout(function(){
+			$("#afterbox03").get(0).style.display="none";
+		})
+
+		$("#img04").mousemove(function(e){
+			// console.log(e.clientX);
+			$("#afterbox04").get(0).style.display="block";
+			$("#afterbox04").get(0).style.left=e.clientX+10+"px";
+			$("#afterbox04").get(0).style.top=e.clientY+10+"px";
+		});
+		$("#img04").mouseout(function(){
+			$("#afterbox04").get(0).style.display="none";
+		})
+	});
+</script>
+</html>
